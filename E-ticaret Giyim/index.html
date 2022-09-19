@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GiyimSitesi</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="lightslider.css">
+    <!---------------JQuery ekleme------------>
+    <!-- <script src="js/JQuery.js"></script>
+    <script src="js/lightslider.js"></script> -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossoring="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="sosyalmedya">
+            <div class="sosyal">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="telefon">
+                <span>İletişim:0555.555.55.55</span>
+            </div>
+        </div>
+        <!-------Menü ve logo kısmı-------->
+        <div class="navigation">
+            <!--LOGO-->
+            <a href="#" class="logo">
+                <img src="imagess/kerem.png" alt="">
+            </a>
+            <!--------Menü------->
+            <ul class="menu">
+
+                <li><a href="#">ANASAYFA</a></li>
+                <li><a href="#">KADIN</a></li>
+                <!--------YeniÜrün-------->
+
+                <li><a href="#">ERKEK</a>
+                    <span class="ust">İNDİRİM</span>
+                </li>
+                <li><a href="#">ÇOCUK</a></li>
+                <li><a href="#">HESAP</a></li>
+                <li><a href="#">İLETİŞİM</a></li>
+                <form action="" class="search-bar">
+                    <input type="search" name="search" pattern=".*\S.*" required>
+                    <button class="search-btn" type="submit">
+                        <span>Search</span>
+                    </button>
+                </form>
+
+            </ul>
+
+            <!------------sağ taraftaki iconlar----------------->
+
+            <div class="sagnavigation">
+
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-shopping-cart">
+                        <!-----------0 işareti---------------->
+                        <span class="sepet">0</span>
+
+                    </i>
+
+                </a>
+                <a href="#">
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </nav>
+    <ul id="adaptive" class="cs-hidden">
+        <li class="item-a">
+            <div class="full-slider f-slide-1">
+                <!-- eğer ikiye bölceksen ve yan tarafa yazı ve buton ekliyceksen -->
+                <!-- <div class="slider-container">
+                    <span>Limit Yok</span>
+                    <strong>%20'lik İlkbahar indirimi</strong>
+                    <a href="#" class="f-slider-btn">Şimdi Satın Al</a> -->
+            </div>
+        </li>
+        <!-- <li class="item-a">
+            <div class="full-slider f-slide-2"> -->
+        <!-- eğer ikiye bölceksen ve yan tarafa yazı ve buton ekliyceksen -->
+        <!-- <div class="slider-container">
+                    <span>Limit Yok</span>
+                    <strong>%20'lik İlkbahar indirimi</strong>
+                    <a href="#" class="f-slider-btn">Şimdi Satın Al</a> -->
+        <!-- </div>
+        </li>
+        <li class="item-a">
+            <div class="full-slider f-slide-3"> -->
+        <!-- eğer ikiye bölceksen ve yan tarafa yazı ve buton ekliyceksen -->
+        <!-- <div class="slider-container">
+                    <span>Limit Yok</span>
+                    <strong>%20'lik İlkbahar indirimi</strong>
+                    <a href="#" class="f-slider-btn">Şimdi Satın Al</a> -->
+        <!-- </div>
+        </li> -->
+
+    </ul>
+
+
+
+    <!---------arama butonu--------------->
+
+    <!-- <div class="search-bar">
+        <div class="search-input">
+            <input type="text" placeholder="Arama Yap" />
+            <a href="#" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </div> -->
+
+
+
+
+    <!---------------JQuery ekleme------------>
+    <!-- <script src="js/JQuery.js"></script>
+    <script type="text/javascript">
+        $(document).on('click', 'search', function () {
+            $('.search-bar').addClass('search-bar-active')
+        });
+
+    </script> -->
+    <!-- <script>
+        $(document).ready(function () {
+            $('#adaptive').lightSlider({
+                adaptiveHeight: true,
+                item: 1,
+                slideMargin: 0,
+                loop: true
+            });
+        });
+    </script>
+    <!----- Yeni Ürünler Yazısı----->
+    <div class="feature-heading">
+        <h2>Kategoriler</h2>
+    </div>
+    <ul id="autoWidth" class="cs-hidden">
+        <li class="item">
+            <!----Alt tarafı---->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="imagess/feature_1.jpg" alt="">
+                </a>
+            </div>
+            <span>Erkek</span>
+
+        </li>
+        <li class="item">
+            <!----Alt tarafı---->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="imagess/feature_2.jpg" alt="">
+                </a>
+            </div>
+            <span>Kadın</span>
+
+        </li>
+        <li class="item">
+            <!----Alt tarafı---->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="imagess/feature_3.jpg" alt="">
+                </a>
+            </div>
+            <span>Çocuk</span>
+
+        </li>
+        <li class="item">
+            <!----Alt tarafı---->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="imagess/feature_4.jpg" alt="">
+                </a>
+            </div>
+            <span>Yastık</span>
+
+        </li>
+
+        <li class="item">
+            <!----Alt tarafı---->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="imagess/feature_6.jpg" alt="">
+                </a>
+            </div>
+            <span>Çanta</span>
+
+        </li>
+    </ul>
+    <section class="new-arrial">
+        <div class="arrival-heading">
+            <strong>Yeni Ürünler</strong>
+            <p>Size yeni tasarım moda kıyafetleri sunuyoruz</p>
+        </div>
+        <div class="product-container">
+            <!---------BOX-1-------->
+            <div class="product-box">
+                <div class="product-img">
+                    <!--Resimlerdeki sepete ekleme emoji-->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="imagess/cocuk.jpg" alt="">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Çocuk Elbise</a>
+                    <span class="p-price">22.00$</span>
+                </div>
+            </div>
+            <!--!!!!!!!!!!!!!BURADAN BAŞLIYOR ANA SAYFA ÜRÜNLERİ!!!!!!!!!!-->
+            <!--!!!!!!!!!!!!!BURADAN BAŞLIYOR ANA SAYFA ÜRÜNLERİ!!!!!!!!!!-->
+            <!--!!!!!!!!!!!!!BURADAN BAŞLIYOR ANA SAYFA ÜRÜNLERİ!!!!!!!!!!-->
+            <!--!!!!!!!!!!!!!BURADAN BAŞLIYOR ANA SAYFA ÜRÜNLERİ!!!!!!!!!!-->
+            <!--!!!!!!!!!!!!!BURADAN BAŞLIYOR ANA SAYFA ÜRÜNLERİ!!!!!!!!!!-->
+            <!---------BOX-2-------->
+            <div class="product-box">
+                <div class="product-img">
+                    <!--Resimlerdeki sepete ekleme emoji-->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="imagess/ceket.jpg" alt="">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Erkek Ceket</a>
+                    <span class="p-price">14.00$</span>
+                </div>
+            </div>
+            <!---------BOX-3-------->
+            <div class="product-box">
+                <div class="product-img">
+                    <!--Resimlerdeki sepete ekleme emoji-->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="imagess/tişört1.png" alt="">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Kadın Kazak</a>
+                    <span class="p-price">53.00$</span>
+                </div>
+            </div>
+            <!---------BOX-4-------->
+            <div class="product-box">
+                <div class="product-img">
+                    <!--Resimlerdeki sepete ekleme emoji-->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="imagess/RESİM1.jpg" alt="">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Kadın Eşofman Takımı</a>
+                    <span class="p-price">80.00$</span>
+                </div>
+            </div>
+            <!---------BOX-5-------->
+            <div class="product-box">
+                <div class="product-img">
+                    <!--Resimlerdeki sepete ekleme emoji-->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="imagess/gömlek.jpg" alt="">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Erkek Gömlek</a>
+                    <span class="p-price">20.00$</span>
+                </div>
+            </div>
+            <!---------BOX-6-------->
+            <div class="product-box">
+                <div class="product-img">
+                    <!--Resimlerdeki sepete ekleme emoji-->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="imagess/giysi.jpg" alt="">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Kadın Ceket</a>
+                    <span class="p-price">80.00$</span>
+                </div>
+            </div>
+            <!---------BOX-7-------->
+            <div class="product-box">
+                <div class="product-img">
+                    <!--Resimlerdeki sepete ekleme emoji-->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="imagess/ab.jpg" alt="">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Erkek T-shirt</a>
+                    <span class="p-price">20.00$</span>
+                </div>
+            </div>
+            <!---------BOX-8-------->
+            <div class="product-box">
+                <div class="product-img">
+                    <!--Resimlerdeki sepete ekleme emoji-->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="imagess/çocuk.jpg" alt="">
+                </div>
+                <div class="product-details">
+                    <a href="#" class="p-name">Çocuk Elbise</a>
+                    <span class="p-price">10.00$</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------Alttaki küçük resim------->
+    <div class="full-sliderr f-slide-2">
+        <a href="#">
+            <strong>GİT</strong>
+        </a>
+    </div>
+    <!-------Servis Kısımları------->
+    <section class="services">
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Ücretsiz Kargo</span>
+            <p>Siparişleriniz için ücretsiz alışveriş</p>
+        </div>
+        <!----------2....----------->
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>7/24 iletişim</span>
+            <p>24 saat boyunca iletişim</p>
+        </div>
+        <!-----------3...---------->
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>%100 Geri iade </span>
+            <p>Ürün hatası olduğunda anında iade</p>
+        </div>
+
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="items">
+                    <a href="#" class="logo">Kerem.Moda</a>
+                    <p> MODAMODADMAODAMODADOAOMDAD<br>AAAAsafsafdasgdsAAAAAAAAdsgdsAAA
+                        asfgasgndskgjdsngdksjgndksjnfkjasasafsafs<br>sgkldsgkdsngkldalkglkdasgnkaslk</p>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="items">
+                    <h3> Product</h3>
+                    <ul>
+                        <li><a href="#">asfsafasfdsfdsfsd</a></li>
+                        <li><a href="#">asfdsgdsgdsfasf</a></li>
+                        <li><a href="#">Bdsgdsfasfsafar</a></li>
+                        <li><a href="#">dsgdsgdsgdsges</a></li>
+                        <li><a href="#">safdsfsd</a></li>
+                        <li><a href="#">asfdsfs</a></li>
+                        <li><a href="#">Psafdsafsdf</a></li>
+                    </ul>
+                </div>
+
+                <div class="items">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">55555555555</a></li>
+                        <li><a href="#">5555555555</a></li>
+                        <li><a href="#">55555555555</a></li>
+                        <li><a href="#">555555555555</a></li>
+                    </ul>
+                </div>
+                <div class="items">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">K111111111111111</a></li>
+                        <li><a href="#">1111111111111</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p class="end">Casfdsafggsdgdsgds gds gsdg dsg dsgdsgdsd.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
